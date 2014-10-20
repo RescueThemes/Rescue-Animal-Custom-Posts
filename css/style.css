@@ -1,0 +1,43 @@
+/* multipost thumbnail admin */
+img.mpt-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+/* Featured Images Slider */
+.slick-prev, .slick-next {
+	height: 35px;
+	padding: 0 20px;
+}
+.slick-prev:before, .slick-next:before {
+	color: #ffffff;
+	font-size: 25px;
+	opacity: 1;
+}
+.slick-prev, .slick-next {
+	background-color: #e8554e;
+	border-radius: 2px;
+}
+.slick-prev {
+    left: 1rem;
+}
+.slick-next {
+    right: 1rem;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus { 
+	background: #e8554e;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 40em) { 
+	.slick-prev, .slick-next {
+		height: 25px;
+		padding: 0 10px;
+	}
+	.slick-prev:before, .slick-next:before {
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 1;
+		opacity: 1;
+	}
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
